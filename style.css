@@ -1,0 +1,62 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* TIPOGRAPHY */
+* {
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+/* BODY */
+body {
+    background-image: url("background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    height: 60vh;
+    max-width: 50vw;
+    margin: 20px auto 0 auto;
+    translate: -40px;
+}
+
+.container {
+    max-width: 70vw;
+    margin: auto;
+    padding-top: 50px;
+    height: 80vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.flex {
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+#list {
+    list-style: none;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#new-list {
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+}

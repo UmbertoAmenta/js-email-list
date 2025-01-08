@@ -3,12 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email list</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+    
+    <title>Generatore casuale email</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h3>Generatore indirizzi email casuali</h3>
-    <ul id="list"></ul>
-    <button id="new-list">Genera nuovi indirizzi</button>
+    <main>
+        <div class="container">
+            <h1>Generatore indirizzi email casuali</h1>
+            <div class="flex">
+                <ul id="list"></ul>
+                <button id="new-list">Rigenera</button>
+            </div>
+        </div>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
